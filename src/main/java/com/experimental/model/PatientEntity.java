@@ -19,7 +19,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Getter
 @Setter
-public class PatientEntity {
+public class PatientEntity implements Patient {
 
     @Id
     @GeneratedValue(generator = "UUID")
