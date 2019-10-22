@@ -1,4 +1,4 @@
-package com.experimental.controllers;
+package com.experimental.controller;
 
 import com.experimental.model.Patient;
 import com.experimental.model.PatientEntity;
@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDate;
 import java.util.UUID;
 
+/**
+ * Example which complies with RSPEC-4684.
+ */
 @RestController
 @RequiredArgsConstructor
 public class ControllerVersion2 {
@@ -26,8 +29,8 @@ public class ControllerVersion2 {
 
     @AllArgsConstructor
     @Getter
-    private class PatientResource implements Patient {
-        
+    private static class PatientResource implements Patient {
+
         private UUID id;
 
         private LocalDate dateOfBirth;

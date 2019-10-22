@@ -1,4 +1,4 @@
-package com.experimental.controllers;
+package com.experimental.controller;
 
 import com.experimental.model.PatientEntity;
 import com.experimental.model.PatientRepository;
@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Example which violates RSPEC-4684.
+ */
 @RestController
 @RequiredArgsConstructor
 public class ControllerVersion1 {

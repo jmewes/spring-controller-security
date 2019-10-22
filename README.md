@@ -22,10 +22,9 @@ docker run -d --name sonarqube -p 9000:9000 sonarqube
 ./gradlew sonarqube -Dsonar.host.url=http://localhost:9000
 ```
 
-
 ## Development
 
 ### Dependencies
 
+- JDK 8
 - [Lombok](https://projectlombok.org/)
-
