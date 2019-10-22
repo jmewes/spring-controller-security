@@ -1,4 +1,4 @@
-package com.experimentalsoftware.springcontrollersecurity;
+package com.experimental.springcontrollersecurity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
