@@ -1,4 +1,4 @@
-package com.experimental.fixtures;
+package com.experimental.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

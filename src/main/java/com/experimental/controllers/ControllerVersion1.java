@@ -1,14 +1,10 @@
-package com.experimental.approach_a;
+package com.experimental.controllers;
 
-import com.experimental.fixtures.PatientEntity;
-import com.experimental.fixtures.PatientRepository;
+import com.experimental.model.PatientEntity;
+import com.experimental.model.PatientRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

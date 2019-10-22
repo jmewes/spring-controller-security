@@ -2,4 +2,4 @@
         name = "UUID",
         strategy = "org.hibernate.id.UUIDGenerator"
 )
-package com.experimental.fixtures;
+package com.experimental.model;
