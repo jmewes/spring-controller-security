@@ -4,3 +4,6 @@ The purpose of this project is to experiment with the following Sonarsource reco
 
 > Persistent entities should not be used as arguments of "@RequestMapping" methods - [RSPEC-4684](https://rules.sonarsource.com/java/tag/spring/RSPEC-4684)
 
+## Dependencies
+
+- [Lombok](https://projectlombok.org/)
